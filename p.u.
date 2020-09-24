@@ -12,7 +12,7 @@ int main()
     cout<<"Entraste al calabozo, escoge una puerta ( a,b,c);
     cin>>puerta;
     
-    switch(letra){
+    switch(puerta){
         case 'a':
         cout<< "Selecciona puerta a, b";
         cin>>puerta;
