@@ -1,0 +1,58 @@
+
+
+#include <iostream>
+
+using namespace std;
+
+char puerta;
+
+int main()
+    
+{
+    cout<<"Entraste al calabozo, escoge una puerta ( a,b,c);
+    cin>>puerta;
+    
+    switch(letra){
+        case 'a':
+        cout<< "Selecciona puerta a, b";
+        cin>>puerta;
+        switch(puerta){
+            case 'a':
+            cout<< "Encontraste un dragon";
+            break;
+            case b:
+            cout<< "Encontraste una espada";
+            break;
+        }
+        break;
+        
+        case 'b':
+        cout<< "Selecciona puerta a, b";
+        cin>>puerta;
+        switch(puerta){
+            case 'a':
+            cout<< "Encontraste una vida";
+            break;
+            case b:
+            cout<< "no hay salida";
+            break;
+        }
+        break;
+        
+        case 'c':
+        cout<< "Selecciona puerta a, b,c";
+        cin>>puerta;
+        switch(puerta){
+            case 'a':
+            cout<< "Encontraste una princesa";
+            break;
+            case b:
+            cout<< "Encontraste la salida";
+            break;
+        }
+        break;
+    }   
+        
+
+    return 0;
+}
