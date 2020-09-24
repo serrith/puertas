@@ -20,7 +20,7 @@ int main()
             case 'a':
             cout<< "Encontraste un dragon";
             break;
-            case b:
+            case 'b':
             cout<< "Encontraste una espada";
             break;
         }
@@ -33,20 +33,20 @@ int main()
             case 'a':
             cout<< "Encontraste una vida";
             break;
-            case b:
+            case 'b':
             cout<< "no hay salida";
             break;
         }
         break;
         
         case 'c':
-        cout<< "Selecciona puerta a, b,c";
+        cout<< "Selecciona puerta a, b,";
         cin>>puerta;
         switch(puerta){
             case 'a':
             cout<< "Encontraste una princesa";
             break;
-            case b:
+            case 'b':
             cout<< "Encontraste la salida";
             break;
         }
